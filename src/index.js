@@ -1,7 +1,8 @@
-import 'jquery';
+import $ from 'jquery';
 import 'bootstrap';
-
 
 import './index.scss';
 
-console.log('hello');
+$('.btn').on('click', () => {
+  $('#stuff').append('what happend to Colin?');
+});
