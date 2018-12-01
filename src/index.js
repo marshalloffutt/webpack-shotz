@@ -1,8 +1,10 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 import 'bootstrap';
-
 import './index.scss';
+import createNavbar from './components/Navbar/navbar';
 
-$('.btn').on('click', () => {
-  $('#stuff').append('what happend to Colin?');
-});
+const initializeApp = () => {
+  createNavbar();
+};
+
+initializeApp();
