@@ -1,5 +1,4 @@
 {
-  "locations": {
       "location1":
       {
           "imageUrl": "http://files.www.fleetfeetnashville.com/wheretorun/centennialpark-process-s600x401.jpg",
@@ -63,5 +62,4 @@
           "address": "71 Hermitage Ave, Nashville, TN 37210",
           "time": "Morning"
       }
-    }
 }
